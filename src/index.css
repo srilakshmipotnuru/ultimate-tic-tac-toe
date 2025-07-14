@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+
 @layer base {
+  .pixel-bold {
+  text-shadow:
+    1px 0 0 var(--text),
+    0 1px 0 var(--text),
+    -1px 0 0 var(--text),
+    0 -1px 0 var(--text);
+}
+
+  body {
+  font-family: var(--arcade-font);
+  line-height: 2;
+  }
+
   :root {
+    --arcade-font: 'Press Start 2P', monospace;
     --text-50: #f8eafa;
     --text-100: #f2d6f5;
     --text-200: #e5adeb;
