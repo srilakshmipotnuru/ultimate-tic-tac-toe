@@ -1,4 +1,4 @@
-import { Sun, Moon } from 'lucide-react'
+import { SunIcon, MoonIcon } from "raster-react"
 import { useState } from 'react'
 
 
@@ -14,7 +14,7 @@ return (
     <div className="display-flex">
         <button onClick={changeMode} className="p-2 transition-transform duration-200 hover:scale-120 cursor-pointer" 
         title={isdarkMode ? "Switch to Light mode" : "Switch to Dark Mode"}>
-            {isdarkMode ? <Sun size={30} className='text-[var(--accent)]' /> : <Moon size={30} className='text-[var(--accent)]' />}
+            {isdarkMode ? <SunIcon size={50} color="var(--accent)" strokeWidth={0.25} radius={1} /> : <MoonIcon size={50} color="var(--accent)" strokeWidth={0.25} radius={1} />}
         </button>
     </div>
 )
