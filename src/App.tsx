@@ -1,13 +1,14 @@
-import { Home } from 'lucide-react'
 import Header from './components/Header'
-import HomePageBody from './components/HomePageBody'
-
+import AppRoutes from './routes/AppRoutes'
+import { BrowserRouter } from 'react-router-dom'
 function App() {
 
   return (
     <div>
       <Header/>
-      <HomePageBody/>
+      <BrowserRouter basename='/tic-tac-turbo'>
+        <AppRoutes />
+      </BrowserRouter>
     </div>
   )
 }
