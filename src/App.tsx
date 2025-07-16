@@ -5,7 +5,7 @@ import HomePageBody from './components/HomePageBody'
 function App() {
 
   return (
-    <div className='bg-[var(--background-100)] h-[100vh]'>
+    <div>
       <Header/>
       <HomePageBody/>
     </div>
