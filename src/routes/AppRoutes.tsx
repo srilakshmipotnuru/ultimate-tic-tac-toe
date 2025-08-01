@@ -7,7 +7,6 @@ import Classic from "../components/Classic";
 
 const ClassicModeWrapper = () => {
     const { mode } = useParams();
-    console.log("Mode:", mode);
     if (!mode || mode.indexOf('3') === -1 && mode.indexOf('5') === -1 && mode.indexOf('7') === -1) {
         return <Navigate to="/" replace />;
     }

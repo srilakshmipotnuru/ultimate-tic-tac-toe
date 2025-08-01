@@ -6,7 +6,7 @@ const ultimateDescription = "This is the ultimate version of the game. Like in t
 
 const HomePageBody = () => {
     return (
-        <div className="flex-col gap-y-6 home-page-body p-6 sm:p-4 text-[var(--text)]">
+        <div className="flex-col gap-y-6 home-page-body p-6 sm:p-4">
             <h1 className="mb-4">Welcome to the Tic Tac Turbo!</h1>
             <p className="mb-6">Choose your mode, grab a friend, and get ready to play!</p>
             <div className="flex flex-col gap-4 p-4 bg-[var(--background-200)] rounded-none">
