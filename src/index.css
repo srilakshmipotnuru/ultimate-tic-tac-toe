@@ -16,11 +16,15 @@
   font-family: var(--arcade-font);
   line-height: 2;
   background: var(--background-100);
-  color: var(--text-50);
+  color: var(--text);
   }
-
+   
   :root {
     --arcade-font: 'Press Start 2P', monospace;
+
+    --player-x: #D81159;
+    --player-o: #10B981; 
+
     --text-50: #f8eafa;
     --text-100: #f2d6f5;
     --text-200: #e5adeb;
@@ -88,6 +92,9 @@
     
   }
   .dark {
+    --player-x: #FDBA74;
+    --player-o: #6EE7B7;
+
     --text-50: #130515;
     --text-100: #260a29;
     --text-200: #4c1452;
